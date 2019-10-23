@@ -21,7 +21,8 @@ before_deploy:
   - git tag $TRAVIS_TAG
 deploy:
   provider: releases
-  api_key: "e3440425e7d739915ecde644e3fcd1daab5d4e8a"
+  user: "alexbumbble",
+  password: "Foobar123$$"
   file:
     - tooth.txt
     - tooth2.txt
