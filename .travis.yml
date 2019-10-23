@@ -40,8 +40,6 @@ deploy:
   name: "Release for 3.0.9"
   body: "SOmething in body"
   prerelease: false
-  on:
-    tags: true
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
