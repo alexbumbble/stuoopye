@@ -29,7 +29,6 @@ deploy:
   skip_cleanup: true
   name: "Release for 3.0.9"
   body: "SOmething in body"
-  prerelease: false
 branches:
   except:
     - "/^v\\d+\\.\\d+\\.\\d+$/"
