@@ -12,6 +12,7 @@ matrix:
 script:
   - echo toothin > tooth.txt
   - echo kajdsj > tooth2.txt
+  - echo "-------------------------------"
   - echo $($APPLER)
 before_deploy:
   # Set up git user name and tag this commit
